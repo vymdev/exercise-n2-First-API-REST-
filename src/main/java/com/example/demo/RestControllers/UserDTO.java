@@ -2,23 +2,20 @@ package com.example.demo.RestControllers;
 
 public class UserDTO {
     
-    private String User;
-    private String Password;
-
+    private String user;
+    private String password;
+    
     public String getUser() {
-        return User;
+        return user;
     }
-
-    public void setUser(String User) {
-        this.User = User;
+    public void setUser(String user) {
+        this.user = user;
     }
-
     public String getPassword() {
-        return Password;
+        return password;
     }
-
-    public void setPassword(String Password) {
-        this.Password = Password;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
 }

@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserService {
     
-    public static List<String> User;
-    public static List<String> Password;
+    public static List<String> User = new ArrayList<>();;
+    public static List<String> Password = new ArrayList<>();;
 
     public void AddUser(String user, String password) {
         this.User.add(user);
